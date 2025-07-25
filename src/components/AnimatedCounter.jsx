@@ -28,7 +28,21 @@ const AnimatedCounter = () => {
           juggling both, but my love for creating and problem-solving kept me
           going. Today, I’m proud to say I can build complete, responsive web
           pages from scratch, and I’m constantly pushing myself to learn more
-          and grow as a developer.
+          and grow as a developer. <br />
+          <span className="flex gap-2">
+            My github profile:{" "}
+            <a
+              href="https://github.com/karvi80"
+              target="_blank"
+              className="cursor-pointer hover:scale-120"
+            >
+              <img
+                src="/images/github.svg"
+                alt="github"
+                className="w-[30px] h-[30px]"
+              />
+            </a>
+          </span>
         </p>
       </div>
       <div className="mx-auto grid-4-cols">
